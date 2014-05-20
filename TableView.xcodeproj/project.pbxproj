@@ -21,6 +21,14 @@
 		FA144F6F191D5F2400B52C9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA144F51191D5F2400B52C9D /* UIKit.framework */; };
 		FA144F77191D5F2500B52C9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA144F75191D5F2500B52C9D /* InfoPlist.strings */; };
 		FA144F79191D5F2500B52C9D /* TableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA144F78191D5F2500B52C9D /* TableViewTests.m */; };
+		FA332172191E099B00B609B9 /* ListController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA332171191E099B00B609B9 /* ListController.m */; };
+		FA332175191E130700B609B9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FA332174191E130700B609B9 /* Person.m */; };
+		FA53C8D1191E988400D4F215 /* fatih_cal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA53C8CB191E988400D4F215 /* fatih_cal.jpeg */; };
+		FA53C8D2191E988400D4F215 /* gokhan_unal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA53C8CC191E988400D4F215 /* gokhan_unal.jpeg */; };
+		FA53C8D3191E988400D4F215 /* muhammed_ozdemir.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA53C8CD191E988400D4F215 /* muhammed_ozdemir.jpeg */; };
+		FA53C8D4191E988400D4F215 /* murat_tutar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA53C8CE191E988400D4F215 /* murat_tutar.jpeg */; };
+		FA53C8D5191E988400D4F215 /* mursid_yazar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA53C8CF191E988400D4F215 /* mursid_yazar.jpeg */; };
+		FA53C8D6191E988400D4F215 /* serhat_altinevlek.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA53C8D0191E988400D4F215 /* serhat_altinevlek.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,16 @@
 		FA144F74191D5F2500B52C9D /* TableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewTests-Info.plist"; sourceTree = "<group>"; };
 		FA144F76191D5F2500B52C9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA144F78191D5F2500B52C9D /* TableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTests.m; sourceTree = "<group>"; };
+		FA332170191E099B00B609B9 /* ListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListController.h; sourceTree = "<group>"; };
+		FA332171191E099B00B609B9 /* ListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListController.m; sourceTree = "<group>"; };
+		FA332173191E130700B609B9 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FA332174191E130700B609B9 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		FA53C8CB191E988400D4F215 /* fatih_cal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fatih_cal.jpeg; sourceTree = "<group>"; };
+		FA53C8CC191E988400D4F215 /* gokhan_unal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gokhan_unal.jpeg; sourceTree = "<group>"; };
+		FA53C8CD191E988400D4F215 /* muhammed_ozdemir.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = muhammed_ozdemir.jpeg; sourceTree = "<group>"; };
+		FA53C8CE191E988400D4F215 /* murat_tutar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = murat_tutar.jpeg; sourceTree = "<group>"; };
+		FA53C8CF191E988400D4F215 /* mursid_yazar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mursid_yazar.jpeg; sourceTree = "<group>"; };
+		FA53C8D0191E988400D4F215 /* serhat_altinevlek.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = serhat_altinevlek.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +133,10 @@
 				FA144F5C191D5F2400B52C9D /* AppDelegate.h */,
 				FA144F5D191D5F2400B52C9D /* AppDelegate.m */,
 				FA144F5F191D5F2400B52C9D /* Main.storyboard */,
+				FA332173191E130700B609B9 /* Person.h */,
+				FA332174191E130700B609B9 /* Person.m */,
+				FA332170191E099B00B609B9 /* ListController.h */,
+				FA332171191E099B00B609B9 /* ListController.m */,
 				FA144F62191D5F2400B52C9D /* ViewController.h */,
 				FA144F63191D5F2400B52C9D /* ViewController.m */,
 				FA144F65191D5F2400B52C9D /* Images.xcassets */,
@@ -126,6 +148,7 @@
 		FA144F54191D5F2400B52C9D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA53C8CA191E987400D4F215 /* Editors */,
 				FA144F55191D5F2400B52C9D /* TableView-Info.plist */,
 				FA144F56191D5F2400B52C9D /* InfoPlist.strings */,
 				FA144F59191D5F2400B52C9D /* main.m */,
@@ -150,6 +173,19 @@
 				FA144F75191D5F2500B52C9D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA53C8CA191E987400D4F215 /* Editors */ = {
+			isa = PBXGroup;
+			children = (
+				FA53C8CB191E988400D4F215 /* fatih_cal.jpeg */,
+				FA53C8CC191E988400D4F215 /* gokhan_unal.jpeg */,
+				FA53C8CD191E988400D4F215 /* muhammed_ozdemir.jpeg */,
+				FA53C8CE191E988400D4F215 /* murat_tutar.jpeg */,
+				FA53C8CF191E988400D4F215 /* mursid_yazar.jpeg */,
+				FA53C8D0191E988400D4F215 /* serhat_altinevlek.jpeg */,
+			);
+			name = Editors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +265,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA144F66191D5F2400B52C9D /* Images.xcassets in Resources */,
+				FA53C8D1191E988400D4F215 /* fatih_cal.jpeg in Resources */,
+				FA53C8D3191E988400D4F215 /* muhammed_ozdemir.jpeg in Resources */,
 				FA144F58191D5F2400B52C9D /* InfoPlist.strings in Resources */,
 				FA144F61191D5F2400B52C9D /* Main.storyboard in Resources */,
+				FA53C8D2191E988400D4F215 /* gokhan_unal.jpeg in Resources */,
+				FA53C8D4191E988400D4F215 /* murat_tutar.jpeg in Resources */,
+				FA53C8D6191E988400D4F215 /* serhat_altinevlek.jpeg in Resources */,
+				FA53C8D5191E988400D4F215 /* mursid_yazar.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +293,9 @@
 			files = (
 				FA144F64191D5F2400B52C9D /* ViewController.m in Sources */,
 				FA144F5E191D5F2400B52C9D /* AppDelegate.m in Sources */,
+				FA332175191E130700B609B9 /* Person.m in Sources */,
 				FA144F5A191D5F2400B52C9D /* main.m in Sources */,
+				FA332172191E099B00B609B9 /* ListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +500,7 @@
 				FA144F7E191D5F2500B52C9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA144F7F191D5F2500B52C9D /* Build configuration list for PBXNativeTarget "TableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +509,7 @@
 				FA144F81191D5F2500B52C9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
